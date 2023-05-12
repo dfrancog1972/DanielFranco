@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+
+.renglon {  
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+p{
+    text-align: justify;
+}
+li{
+    text-align: right;
+}
+
+.lado {
+    flex: 30%;
+    background-color: #545050;
+    padding: 20px;
+}
+
+
+.main {
+    flex: 70%;
+    background-color: rgb(156, 198, 221);
+    
+}
+
+.izq {
+    background-color: #aaa;
+    width: 30%;
+    padding: 20px;
+}
+
+img{
+    border-radius: 80%;
+}
+li{
+    list-style-type: none;
+    justify-self: left;
+}
+
+@media screen and (max-width: 700px){
+    .renglon {   
+        flex-direction: column;
+    }
+}
+

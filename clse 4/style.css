@@ -1,0 +1,29 @@
+.contenedor{
+    display:grid;
+    border: 5px solid palevioletred;
+    background-color: antiquewhite;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+}
+
+.item-a{
+    
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:1;
+    grid-row-end: 3;
+    font-size:15px;
+}
+.item-b{
+    
+    background-color: red;
+}
+.item-c{
+    
+    background-color: green;
+}
+.item-d{
+    
+    background-color: blueviolet;
+}

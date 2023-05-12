@@ -1,0 +1,28 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tarjeta{
+    width: 200px;
+    height: 100px;
+    background-color: hsl(278, 76%, 61%);
+    transition-duration: 1000ms;
+    border: 1px black solid;
+}
+.tarjeta p{
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.padre{
+    background-color: bisque;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+}
