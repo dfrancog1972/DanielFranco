@@ -17,10 +17,28 @@ body {
 
 p{
     text-align: justify;
+    margin: 10px;
+    padding: auto;   
+}
+p.formato:hover{
+    font-family: Verdana;
+    color: rgb(20, 20, 126);
+}
+p.formato2{
+    font-family: Verdana;
+    font-size:small;
+    color: rgb(20, 20, 126);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 li{
     text-align: right;
 }
+
 
 .lado {
     flex: 30%;
@@ -42,13 +60,13 @@ li{
 }
 
 img{
-    border-radius: 80%;
-}
-li{
-    list-style-type: none;
-    justify-self: left;
+    border-radius: 60%;
 }
 
+h2{
+    text-align: center;
+    color: rgb(3, 3, 35);
+}
 @media screen and (max-width: 700px){
     .renglon {   
         flex-direction: column;
